@@ -34,20 +34,11 @@ Agents are classified into four quadrants based on their **Final Score** and **N
 | --- | --- | --- | --- |
 | **Efficient Performer** | High | Low | ✅ 
 
- |
 | **Low Performer** | Low | Low | ⚠️ 
 
- |
 | **High-Loss Performer** | High | High | 🚩 
 
- |
 | **High-Risk Underperformer** | Low | High | ❌ 
-
- |
-
-
-* 
-**F1 Score:** 95% 
 
 
 
@@ -59,16 +50,13 @@ Agents are classified into four quadrants based on their **Final Score** and **N
 
 ### Model Architecture
 
-* 
-**Algorithm:** CATBoost Regressor.
+* **Algorithm:** CATBoost Regressor.
 
 
-* 
-**Training Data:** 1,559,434 Policies from 2020–2022.
+* **Training Data:** 1,559,434 Policies from 2020–2022.
 
 
-* 
-**Testing Data:** 166,065 Policies from 2023 & 2024.
+* **Testing Data:** 166,065 Policies from 2023 & 2024.
 
 
 
@@ -80,29 +68,23 @@ The model demonstrated high stability and accuracy across different temporal dat
 | --- | --- |
 | **Train Fit** | 84.90% 
 
- |
 | **Test Fit (2023)** | 84.12% 
 
- |
 | **Test Fit (2024)** | 81.20% 
 
- |
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 * **Languages:** Python
-* 
-**Machine Learning:** XGBoost , CATBoost Regressor 
+* **Machine Learning:** XGBoost , CATBoost Regressor 
 
 
-* 
-**Data Visualization:** Matplotlib/Seaborn for Agent Trend Analysis 
+* **Data Visualization:** Matplotlib/Seaborn for Agent Trend Analysis 
 
 
-* 
-**Domain:** General Insurance (PIB) 
+* **Domain:** General Insurance (PIB) 
 
 
 
