@@ -33,11 +33,8 @@ Agents are classified into four quadrants based on their **Final Score** and **N
 | Classification | Final Score | NIC/NEP Ratio | Visual Indicator |
 | --- | --- | --- | --- |
 | **Efficient Performer** | High | Low | ✅ 
-
 | **Low Performer** | Low | Low | ⚠️ 
-
 | **High-Loss Performer** | High | High | 🚩 
-
 | **High-Risk Underperformer** | Low | High | ❌ 
 
 
@@ -67,9 +64,7 @@ The model demonstrated high stability and accuracy across different temporal dat
 | Dataset | Fit Accuracy |
 | --- | --- |
 | **Train Fit** | 84.90% 
-
 | **Test Fit (2023)** | 84.12% 
-
 | **Test Fit (2024)** | 81.20% 
 
 
